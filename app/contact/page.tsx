@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 const contactDetails = [
   {
     label: "Email",
-    value: "ieee@example.com",
-    href: "mailto:ieee@example.com",
+    value: "ieeeucek@gmail.com",
+    href: "mailto:ieeeucek@gmail.com",
     description: "For general questions and collaborations",
     icon: (
       <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
@@ -18,21 +18,32 @@ const contactDetails = [
     ),
   },
   {
-    label: "Visit",
-    value: "UCEK Campus",
-    href: "https://maps.google.com/?q=University+College+of+Engineering+Kariavattom",
-    description: "Find us at University College of Engineering, Kariavattom",
-    icon: (
-      <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M12 21s7-6.05 7-12a7 7 0 10-14 0c0 5.95 7 12 7 12z" />
-        <circle cx="12" cy="9" r="2.25" />
-      </svg>
-    ),
-  },
+  label: "Visit",
+  value: "IEEE SB UCEK",
+  href: "https://maps.app.goo.gl/v8HFTWVyESzrk8zx5",
+  description:
+    "University of Kerala Karyavattom Campus, University College of Engineering, Thiruvananthapuram, Kerala 695581",
+  icon: (
+    <svg
+      className="h-6 w-6"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M12 21s7-6.05 7-12a7 7 0 10-14 0c0 5.95 7 12 7 12z"
+      />
+      <circle cx="12" cy="9" r="2.25" />
+    </svg>
+  ),
+},
   {
     label: "Instagram",
-    value: "@ieee_sbucek",
-    href: "https://instagram.com",
+    value: "@ieeesbucek",
+    href: "https://www.instagram.com/ieeesbucek/",
     description: "Follow the latest from our community",
     icon: (
       <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
